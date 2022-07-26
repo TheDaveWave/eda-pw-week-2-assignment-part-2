@@ -159,6 +159,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - The multiconditional if statement uses an OR operator instead of an AND operator to compare conditions.
+// The instructions ask us to check if temp is higher than 39 AND if time is greater than or equal to 4.
+// Although the flawed if condition would still console.log 'throw away the food!' since both conditions are true.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
