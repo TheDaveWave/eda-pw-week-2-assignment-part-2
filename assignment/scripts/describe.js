@@ -138,12 +138,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' per instructions but does not affect end result.
 let colorOne = 'red';
+// FIX - colorTwo should be set to 'red' per instructions but does not affect end result.
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - colorTwo = 'purple' is missing and the instructions say if mix is equal to true
+  // that both colorOne and colorTwo should be set to 'purple'
 }
 */
 
