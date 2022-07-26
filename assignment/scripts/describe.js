@@ -73,10 +73,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called isStudent and set it to true as a boolean data type.
+// We create a variable called age and set it to 34 as a number data type.
+// We create a varaible called zip and set it to 55407 as a number data type.
+// We check if isStudent is strictly equal to true AND if zip is greater than 80000, 
+//  true is strictly equal to true AND 55407 is greater than 80000 is false so,
+//  we check if isStudent is strictly equal to false OR age is less than 30, 
+//  true is not strictly equal to false (so false) OR 34 is less than 30 (false),
+//  so then we check if isStudent is strictly equal to true so,
+//  true is strictly to true (so true) and we console.log 'Welcome to Prime!'
 
 //CODE
 /*
