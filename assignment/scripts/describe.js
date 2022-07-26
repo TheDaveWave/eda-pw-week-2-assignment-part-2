@@ -175,7 +175,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - checks if minAge <= age but the instructions ask to check if age >= minAge
+// should be if(age >= minAge)  
 if(minAge <= age) {
+  // FIX - swap line 184 and 186 so the fixed condition will console.log 'enter' 
+  // but the instructions do not specify an else statement so if you strictly follow the instructions
+  // you could just delete line 184 through line 185.
   console.log('no entry');
 } else {
   console.log('enter');
