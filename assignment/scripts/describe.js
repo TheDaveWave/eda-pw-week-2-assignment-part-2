@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called name and set it to 'Dane' as a string data type.
+// We check if name is strictly equal to the string 'Mary'.
+// 'Dane' is not 'Mary', which make the condition false.
+// So we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called secret.
+// We create a variable called code and set it to 123 as a number data type.
+// We check if code is strictly equal to 123 including data type. 
+// 123 is strictly equal to 123 so we set the variable secret to the string 'super'
+// and we set code equal to code multiplied by 2, so code would now equal 246.
+// Then we check code again and see if it is greater than 250.
+// Since 246 is not greater than 250 we console.log 'super'
 
 //CODE
 /*
